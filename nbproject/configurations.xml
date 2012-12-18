@@ -1,0 +1,2231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="88">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="fftw">
+      <df name="api">
+        <in>api.h</in>
+        <in>apiplan.c</in>
+        <in>configure.c</in>
+        <in>execute-dft-c2r.c</in>
+        <in>execute-dft-r2c.c</in>
+        <in>execute-dft.c</in>
+        <in>execute-r2r.c</in>
+        <in>execute-split-dft-c2r.c</in>
+        <in>execute-split-dft-r2c.c</in>
+        <in>execute-split-dft.c</in>
+        <in>execute.c</in>
+        <in>export-wisdom-to-file.c</in>
+        <in>export-wisdom-to-string.c</in>
+        <in>export-wisdom.c</in>
+        <in>f77api.c</in>
+        <in>f77funcs.h</in>
+        <in>fftw3.h</in>
+        <in>flops.c</in>
+        <in>forget-wisdom.c</in>
+        <in>guru.h</in>
+        <in>guru64.h</in>
+        <in>import-system-wisdom.c</in>
+        <in>import-wisdom-from-file.c</in>
+        <in>import-wisdom-from-string.c</in>
+        <in>import-wisdom.c</in>
+        <in>malloc.c</in>
+        <in>map-r2r-kind.c</in>
+        <in>mapflags.c</in>
+        <in>mkprinter-file.c</in>
+        <in>mktensor-iodims.c</in>
+        <in>mktensor-iodims.h</in>
+        <in>mktensor-iodims64.c</in>
+        <in>mktensor-rowmajor.c</in>
+        <in>plan-dft-1d.c</in>
+        <in>plan-dft-2d.c</in>
+        <in>plan-dft-3d.c</in>
+        <in>plan-dft-c2r-1d.c</in>
+        <in>plan-dft-c2r-2d.c</in>
+        <in>plan-dft-c2r-3d.c</in>
+        <in>plan-dft-c2r.c</in>
+        <in>plan-dft-r2c-1d.c</in>
+        <in>plan-dft-r2c-2d.c</in>
+        <in>plan-dft-r2c-3d.c</in>
+        <in>plan-dft-r2c.c</in>
+        <in>plan-dft.c</in>
+        <in>plan-guru-dft-c2r.c</in>
+        <in>plan-guru-dft-c2r.h</in>
+        <in>plan-guru-dft-r2c.c</in>
+        <in>plan-guru-dft-r2c.h</in>
+        <in>plan-guru-dft.c</in>
+        <in>plan-guru-dft.h</in>
+        <in>plan-guru-r2r.c</in>
+        <in>plan-guru-r2r.h</in>
+        <in>plan-guru-split-dft-c2r.c</in>
+        <in>plan-guru-split-dft-c2r.h</in>
+        <in>plan-guru-split-dft-r2c.c</in>
+        <in>plan-guru-split-dft-r2c.h</in>
+        <in>plan-guru-split-dft.c</in>
+        <in>plan-guru-split-dft.h</in>
+        <in>plan-guru64-dft-c2r.c</in>
+        <in>plan-guru64-dft-r2c.c</in>
+        <in>plan-guru64-dft.c</in>
+        <in>plan-guru64-r2r.c</in>
+        <in>plan-guru64-split-dft-c2r.c</in>
+        <in>plan-guru64-split-dft-r2c.c</in>
+        <in>plan-guru64-split-dft.c</in>
+        <in>plan-many-dft-c2r.c</in>
+        <in>plan-many-dft-r2c.c</in>
+        <in>plan-many-dft.c</in>
+        <in>plan-many-r2r.c</in>
+        <in>plan-r2r-1d.c</in>
+        <in>plan-r2r-2d.c</in>
+        <in>plan-r2r-3d.c</in>
+        <in>plan-r2r.c</in>
+        <in>print-plan.c</in>
+        <in>rdft2-pad.c</in>
+        <in>the-planner.c</in>
+        <in>version.c</in>
+        <in>x77.h</in>
+      </df>
+      <df name="dft">
+        <df name="scalar">
+          <df name="codelets">
+            <in>codlist.c</in>
+            <in>n1_10.c</in>
+            <in>n1_11.c</in>
+            <in>n1_12.c</in>
+            <in>n1_13.c</in>
+            <in>n1_14.c</in>
+            <in>n1_15.c</in>
+            <in>n1_16.c</in>
+            <in>n1_2.c</in>
+            <in>n1_20.c</in>
+            <in>n1_25.c</in>
+            <in>n1_3.c</in>
+            <in>n1_32.c</in>
+            <in>n1_4.c</in>
+            <in>n1_5.c</in>
+            <in>n1_6.c</in>
+            <in>n1_64.c</in>
+            <in>n1_7.c</in>
+            <in>n1_8.c</in>
+            <in>n1_9.c</in>
+            <in>q1_2.c</in>
+            <in>q1_3.c</in>
+            <in>q1_4.c</in>
+            <in>q1_5.c</in>
+            <in>q1_6.c</in>
+            <in>q1_8.c</in>
+            <in>t1_10.c</in>
+            <in>t1_12.c</in>
+            <in>t1_15.c</in>
+            <in>t1_16.c</in>
+            <in>t1_2.c</in>
+            <in>t1_20.c</in>
+            <in>t1_25.c</in>
+            <in>t1_3.c</in>
+            <in>t1_32.c</in>
+            <in>t1_4.c</in>
+            <in>t1_5.c</in>
+            <in>t1_6.c</in>
+            <in>t1_64.c</in>
+            <in>t1_7.c</in>
+            <in>t1_8.c</in>
+            <in>t1_9.c</in>
+            <in>t2_10.c</in>
+            <in>t2_16.c</in>
+            <in>t2_20.c</in>
+            <in>t2_25.c</in>
+            <in>t2_32.c</in>
+            <in>t2_4.c</in>
+            <in>t2_5.c</in>
+            <in>t2_64.c</in>
+            <in>t2_8.c</in>
+          </df>
+          <in>n.c</in>
+          <in>n.h</in>
+          <in>q.h</in>
+          <in>t.c</in>
+          <in>t.h</in>
+        </df>
+        <in>bluestein.c</in>
+        <in>buffered.c</in>
+        <in>codelet-dft.h</in>
+        <in>conf.c</in>
+        <in>ct.c</in>
+        <in>ct.h</in>
+        <in>dft.h</in>
+        <in>dftw-direct.c</in>
+        <in>dftw-directsq.c</in>
+        <in>dftw-generic.c</in>
+        <in>dftw-genericbuf.c</in>
+        <in>direct.c</in>
+        <in>generic.c</in>
+        <in>indirect-transpose.c</in>
+        <in>indirect.c</in>
+        <in>kdft-dif.c</in>
+        <in>kdft-difsq.c</in>
+        <in>kdft-dit.c</in>
+        <in>kdft.c</in>
+        <in>nop.c</in>
+        <in>plan.c</in>
+        <in>problem.c</in>
+        <in>rader.c</in>
+        <in>rank-geq2.c</in>
+        <in>solve.c</in>
+        <in>vrank-geq1.c</in>
+        <in>zero.c</in>
+      </df>
+      <df name="kernel">
+        <in>align.c</in>
+        <in>alloc.c</in>
+        <in>assert.c</in>
+        <in>awake.c</in>
+        <in>buffered.c</in>
+        <in>cpy1d.c</in>
+        <in>cpy2d-pair.c</in>
+        <in>cpy2d.c</in>
+        <in>ct.c</in>
+        <in>cycle.h</in>
+        <in>debug.c</in>
+        <in>extract-reim.c</in>
+        <in>hash.c</in>
+        <in>iabs.c</in>
+        <in>ifftw.h</in>
+        <in>kalloc.c</in>
+        <in>md5-1.c</in>
+        <in>md5.c</in>
+        <in>minmax.c</in>
+        <in>ops.c</in>
+        <in>pickdim.c</in>
+        <in>plan.c</in>
+        <in>planner.c</in>
+        <in>primes.c</in>
+        <in>print.c</in>
+        <in>problem.c</in>
+        <in>rader.c</in>
+        <in>scan.c</in>
+        <in>solver.c</in>
+        <in>solvtab.c</in>
+        <in>stride.c</in>
+        <in>tensor.c</in>
+        <in>tensor1.c</in>
+        <in>tensor2.c</in>
+        <in>tensor3.c</in>
+        <in>tensor4.c</in>
+        <in>tensor5.c</in>
+        <in>tensor7.c</in>
+        <in>tensor8.c</in>
+        <in>tensor9.c</in>
+        <in>tile2d.c</in>
+        <in>timer.c</in>
+        <in>transpose.c</in>
+        <in>trig.c</in>
+        <in>twiddle.c</in>
+      </df>
+      <df name="libbench2">
+        <in>after-ccopy-from.c</in>
+        <in>after-ccopy-to.c</in>
+        <in>after-hccopy-from.c</in>
+        <in>after-hccopy-to.c</in>
+        <in>after-rcopy-from.c</in>
+        <in>after-rcopy-to.c</in>
+        <in>allocate.c</in>
+        <in>aset.c</in>
+        <in>bench-cost-postprocess.c</in>
+        <in>bench-exit.c</in>
+        <in>bench-main.c</in>
+        <in>bench-user.h</in>
+        <in>bench.h</in>
+        <in>can-do.c</in>
+        <in>caset.c</in>
+        <in>dotens2.c</in>
+        <in>info.c</in>
+        <in>main.c</in>
+        <in>mflops.c</in>
+        <in>mp.c</in>
+        <in>my-getopt.c</in>
+        <in>my-getopt.h</in>
+        <in>ovtpvt.c</in>
+        <in>pow2.c</in>
+        <in>problem.c</in>
+        <in>report.c</in>
+        <in>speed.c</in>
+        <in>tensor.c</in>
+        <in>timer.c</in>
+        <in>useropt.c</in>
+        <in>util.c</in>
+        <in>verify-dft.c</in>
+        <in>verify-lib.c</in>
+        <in>verify-r2r.c</in>
+        <in>verify-rdft2.c</in>
+        <in>verify.c</in>
+        <in>verify.h</in>
+        <in>zero.c</in>
+      </df>
+      <df name="rdft">
+        <df name="scalar">
+          <df name="r2cb">
+            <in>codlist.c</in>
+            <in>hb2_16.c</in>
+            <in>hb2_20.c</in>
+            <in>hb2_25.c</in>
+            <in>hb2_32.c</in>
+            <in>hb2_4.c</in>
+            <in>hb2_5.c</in>
+            <in>hb2_8.c</in>
+            <in>hb_10.c</in>
+            <in>hb_12.c</in>
+            <in>hb_15.c</in>
+            <in>hb_16.c</in>
+            <in>hb_2.c</in>
+            <in>hb_20.c</in>
+            <in>hb_25.c</in>
+            <in>hb_3.c</in>
+            <in>hb_32.c</in>
+            <in>hb_4.c</in>
+            <in>hb_5.c</in>
+            <in>hb_6.c</in>
+            <in>hb_64.c</in>
+            <in>hb_7.c</in>
+            <in>hb_8.c</in>
+            <in>hb_9.c</in>
+            <in>hc2cb2_16.c</in>
+            <in>hc2cb2_20.c</in>
+            <in>hc2cb2_32.c</in>
+            <in>hc2cb2_4.c</in>
+            <in>hc2cb2_8.c</in>
+            <in>hc2cb_10.c</in>
+            <in>hc2cb_12.c</in>
+            <in>hc2cb_16.c</in>
+            <in>hc2cb_2.c</in>
+            <in>hc2cb_20.c</in>
+            <in>hc2cb_32.c</in>
+            <in>hc2cb_4.c</in>
+            <in>hc2cb_6.c</in>
+            <in>hc2cb_8.c</in>
+            <in>hc2cbdft2_16.c</in>
+            <in>hc2cbdft2_20.c</in>
+            <in>hc2cbdft2_32.c</in>
+            <in>hc2cbdft2_4.c</in>
+            <in>hc2cbdft2_8.c</in>
+            <in>hc2cbdft_10.c</in>
+            <in>hc2cbdft_12.c</in>
+            <in>hc2cbdft_16.c</in>
+            <in>hc2cbdft_2.c</in>
+            <in>hc2cbdft_20.c</in>
+            <in>hc2cbdft_32.c</in>
+            <in>hc2cbdft_4.c</in>
+            <in>hc2cbdft_6.c</in>
+            <in>hc2cbdft_8.c</in>
+            <in>r2cbIII_10.c</in>
+            <in>r2cbIII_12.c</in>
+            <in>r2cbIII_15.c</in>
+            <in>r2cbIII_16.c</in>
+            <in>r2cbIII_2.c</in>
+            <in>r2cbIII_20.c</in>
+            <in>r2cbIII_25.c</in>
+            <in>r2cbIII_3.c</in>
+            <in>r2cbIII_32.c</in>
+            <in>r2cbIII_4.c</in>
+            <in>r2cbIII_5.c</in>
+            <in>r2cbIII_6.c</in>
+            <in>r2cbIII_64.c</in>
+            <in>r2cbIII_7.c</in>
+            <in>r2cbIII_8.c</in>
+            <in>r2cbIII_9.c</in>
+            <in>r2cb_10.c</in>
+            <in>r2cb_11.c</in>
+            <in>r2cb_12.c</in>
+            <in>r2cb_128.c</in>
+            <in>r2cb_13.c</in>
+            <in>r2cb_14.c</in>
+            <in>r2cb_15.c</in>
+            <in>r2cb_16.c</in>
+            <in>r2cb_2.c</in>
+            <in>r2cb_20.c</in>
+            <in>r2cb_25.c</in>
+            <in>r2cb_3.c</in>
+            <in>r2cb_32.c</in>
+            <in>r2cb_4.c</in>
+            <in>r2cb_5.c</in>
+            <in>r2cb_6.c</in>
+            <in>r2cb_64.c</in>
+            <in>r2cb_7.c</in>
+            <in>r2cb_8.c</in>
+            <in>r2cb_9.c</in>
+          </df>
+          <df name="r2cf">
+            <in>codlist.c</in>
+            <in>hc2cf2_16.c</in>
+            <in>hc2cf2_20.c</in>
+            <in>hc2cf2_32.c</in>
+            <in>hc2cf2_4.c</in>
+            <in>hc2cf2_8.c</in>
+            <in>hc2cf_10.c</in>
+            <in>hc2cf_12.c</in>
+            <in>hc2cf_16.c</in>
+            <in>hc2cf_2.c</in>
+            <in>hc2cf_20.c</in>
+            <in>hc2cf_32.c</in>
+            <in>hc2cf_4.c</in>
+            <in>hc2cf_6.c</in>
+            <in>hc2cf_8.c</in>
+            <in>hc2cfdft2_16.c</in>
+            <in>hc2cfdft2_20.c</in>
+            <in>hc2cfdft2_32.c</in>
+            <in>hc2cfdft2_4.c</in>
+            <in>hc2cfdft2_8.c</in>
+            <in>hc2cfdft_10.c</in>
+            <in>hc2cfdft_12.c</in>
+            <in>hc2cfdft_16.c</in>
+            <in>hc2cfdft_2.c</in>
+            <in>hc2cfdft_20.c</in>
+            <in>hc2cfdft_32.c</in>
+            <in>hc2cfdft_4.c</in>
+            <in>hc2cfdft_6.c</in>
+            <in>hc2cfdft_8.c</in>
+            <in>hf2_16.c</in>
+            <in>hf2_20.c</in>
+            <in>hf2_25.c</in>
+            <in>hf2_32.c</in>
+            <in>hf2_4.c</in>
+            <in>hf2_5.c</in>
+            <in>hf2_8.c</in>
+            <in>hf_10.c</in>
+            <in>hf_12.c</in>
+            <in>hf_15.c</in>
+            <in>hf_16.c</in>
+            <in>hf_2.c</in>
+            <in>hf_20.c</in>
+            <in>hf_25.c</in>
+            <in>hf_3.c</in>
+            <in>hf_32.c</in>
+            <in>hf_4.c</in>
+            <in>hf_5.c</in>
+            <in>hf_6.c</in>
+            <in>hf_64.c</in>
+            <in>hf_7.c</in>
+            <in>hf_8.c</in>
+            <in>hf_9.c</in>
+            <in>r2cfII_10.c</in>
+            <in>r2cfII_12.c</in>
+            <in>r2cfII_15.c</in>
+            <in>r2cfII_16.c</in>
+            <in>r2cfII_2.c</in>
+            <in>r2cfII_20.c</in>
+            <in>r2cfII_25.c</in>
+            <in>r2cfII_3.c</in>
+            <in>r2cfII_32.c</in>
+            <in>r2cfII_4.c</in>
+            <in>r2cfII_5.c</in>
+            <in>r2cfII_6.c</in>
+            <in>r2cfII_64.c</in>
+            <in>r2cfII_7.c</in>
+            <in>r2cfII_8.c</in>
+            <in>r2cfII_9.c</in>
+            <in>r2cf_10.c</in>
+            <in>r2cf_11.c</in>
+            <in>r2cf_12.c</in>
+            <in>r2cf_128.c</in>
+            <in>r2cf_13.c</in>
+            <in>r2cf_14.c</in>
+            <in>r2cf_15.c</in>
+            <in>r2cf_16.c</in>
+            <in>r2cf_2.c</in>
+            <in>r2cf_20.c</in>
+            <in>r2cf_25.c</in>
+            <in>r2cf_3.c</in>
+            <in>r2cf_32.c</in>
+            <in>r2cf_4.c</in>
+            <in>r2cf_5.c</in>
+            <in>r2cf_6.c</in>
+            <in>r2cf_64.c</in>
+            <in>r2cf_7.c</in>
+            <in>r2cf_8.c</in>
+            <in>r2cf_9.c</in>
+          </df>
+          <df name="r2r">
+            <in>codlist.c</in>
+            <in>e01_8.c</in>
+            <in>e10_8.c</in>
+          </df>
+          <in>hb.h</in>
+          <in>hc2c.c</in>
+          <in>hc2cb.h</in>
+          <in>hc2cf.h</in>
+          <in>hf.h</in>
+          <in>hfb.c</in>
+          <in>r2c.c</in>
+          <in>r2cb.h</in>
+          <in>r2cbIII.h</in>
+          <in>r2cf.h</in>
+          <in>r2cfII.h</in>
+          <in>r2r.c</in>
+          <in>r2r.h</in>
+        </df>
+        <in>buffered.c</in>
+        <in>buffered2.c</in>
+        <in>codelet-rdft.h</in>
+        <in>conf.c</in>
+        <in>ct-hc2c-direct.c</in>
+        <in>ct-hc2c.c</in>
+        <in>ct-hc2c.h</in>
+        <in>dft-r2hc.c</in>
+        <in>dht-r2hc.c</in>
+        <in>dht-rader.c</in>
+        <in>direct-r2c.c</in>
+        <in>direct-r2r.c</in>
+        <in>direct2.c</in>
+        <in>generic.c</in>
+        <in>hc2hc-direct.c</in>
+        <in>hc2hc-generic.c</in>
+        <in>hc2hc.c</in>
+        <in>hc2hc.h</in>
+        <in>indirect.c</in>
+        <in>khc2c.c</in>
+        <in>khc2hc.c</in>
+        <in>kr2c.c</in>
+        <in>kr2r.c</in>
+        <in>nop.c</in>
+        <in>nop2.c</in>
+        <in>plan.c</in>
+        <in>plan2.c</in>
+        <in>problem.c</in>
+        <in>problem2.c</in>
+        <in>rank-geq2-rdft2.c</in>
+        <in>rank-geq2.c</in>
+        <in>rank0-rdft2.c</in>
+        <in>rank0.c</in>
+        <in>rdft-dht.c</in>
+        <in>rdft.h</in>
+        <in>rdft2-inplace-strides.c</in>
+        <in>rdft2-rdft.c</in>
+        <in>rdft2-strides.c</in>
+        <in>rdft2-tensor-max-index.c</in>
+        <in>solve.c</in>
+        <in>solve2.c</in>
+        <in>vrank-geq1-rdft2.c</in>
+        <in>vrank-geq1.c</in>
+        <in>vrank3-transpose.c</in>
+      </df>
+      <df name="reodft">
+        <in>conf.c</in>
+        <in>redft00e-r2hc-pad.c</in>
+        <in>reodft.h</in>
+        <in>reodft00e-splitradix.c</in>
+        <in>reodft010e-r2hc.c</in>
+        <in>reodft11e-r2hc-odd.c</in>
+        <in>reodft11e-radix2.c</in>
+        <in>rodft00e-r2hc-pad.c</in>
+      </df>
+      <df name="simd-support">
+        <in>altivec.c</in>
+        <in>avx.c</in>
+        <in>neon.c</in>
+        <in>simd-common.h</in>
+        <in>sse2-nonportable.c</in>
+        <in>sse2.c</in>
+        <in>taint.c</in>
+      </df>
+      <df name="tests">
+        <in>bench.c</in>
+        <in>fftw-bench.c</in>
+        <in>fftw-bench.h</in>
+        <in>hook.c</in>
+      </df>
+      <df name="tools">
+        <in>fftw-wisdom.c</in>
+      </df>
+      <in>config.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="api/api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/apiplan.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/configure.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/execute-dft-c2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/execute-dft-r2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/execute-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/execute-r2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/execute-split-dft-c2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/execute-split-dft-r2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/execute-split-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/execute.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/export-wisdom-to-file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/export-wisdom-to-string.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/export-wisdom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/f77api.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/f77funcs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/fftw3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/flops.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/forget-wisdom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/guru.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/guru64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/import-system-wisdom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/import-wisdom-from-file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/import-wisdom-from-string.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/import-wisdom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/malloc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/map-r2r-kind.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/mapflags.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/mkprinter-file.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/mktensor-iodims.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/mktensor-iodims.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/mktensor-iodims64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/mktensor-rowmajor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-1d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-2d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-3d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-c2r-1d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-c2r-2d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-c2r-3d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-c2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-r2c-1d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-r2c-2d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-r2c-3d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft-r2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru-dft-c2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru-dft-c2r.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/plan-guru-dft-r2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru-dft-r2c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/plan-guru-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru-dft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/plan-guru-r2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru-r2r.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/plan-guru-split-dft-c2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru-split-dft-c2r.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/plan-guru-split-dft-r2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru-split-dft-r2c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/plan-guru-split-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru-split-dft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api/plan-guru64-dft-c2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru64-dft-r2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru64-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru64-r2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru64-split-dft-c2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru64-split-dft-r2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-guru64-split-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-many-dft-c2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-many-dft-r2c.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-many-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-many-r2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-r2r-1d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-r2r-2d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-r2r-3d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/plan-r2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/print-plan.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/rdft2-pad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/the-planner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/version.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="api/x77.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dft/bluestein.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/buffered.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/codelet-dft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dft/conf.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/ct.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/ct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dft/dft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dft/dftw-direct.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/dftw-directsq.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/dftw-generic.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/dftw-genericbuf.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/direct.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/generic.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/indirect-transpose.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/indirect.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/kdft-dif.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/kdft-difsq.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/kdft-dit.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/kdft.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/nop.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/plan.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/problem.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/rader.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/rank-geq2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/scalar/codelets/codlist.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_13.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_14.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/n1_9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/q1_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/q1_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/q1_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/q1_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/q1_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/q1_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t1_9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/codelets/t2_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dft/scalar/n.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft/scalar</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/scalar/n.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dft/scalar/q.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dft/scalar/t.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft/scalar</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/scalar/t.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dft/solve.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/vrank-geq1.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="dft/zero.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>dft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <folder path="fftw/api">
+        <cTool>
+          <incDir>
+            <pElem>api</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+            <pElem>rdft</pElem>
+            <pElem>reodft</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/dft/scalar/codelets">
+        <cTool>
+          <incDir>
+            <pElem>dft/scalar/codelets</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+            <pElem>dft/scalar</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/kernel">
+        <cTool>
+          <incDir>
+            <pElem>kernel</pElem>
+            <pElem>.</pElem>
+            <pElem>simd</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/libbench2">
+        <cTool>
+          <incDir>
+            <pElem>libbench2</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/rdft/scalar/r2cb">
+        <cTool>
+          <incDir>
+            <pElem>rdft/scalar/r2cb</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>rdft</pElem>
+            <pElem>rdft/scalar</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/rdft/scalar/r2cf">
+        <cTool>
+          <incDir>
+            <pElem>rdft/scalar/r2cf</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>rdft</pElem>
+            <pElem>rdft/scalar</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/rdft/scalar/r2r">
+        <cTool>
+          <incDir>
+            <pElem>rdft/scalar/r2r</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>rdft</pElem>
+            <pElem>rdft/scalar</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/reodft">
+        <cTool>
+          <incDir>
+            <pElem>reodft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>rdft</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/simd-support">
+        <cTool>
+          <incDir>
+            <pElem>simd-support</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/tests">
+        <cTool>
+          <incDir>
+            <pElem>tests</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>libbench2</pElem>
+            <pElem>dft</pElem>
+            <pElem>rdft</pElem>
+            <pElem>reodft</pElem>
+            <pElem>threads</pElem>
+            <pElem>api</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="fftw/tools">
+        <cTool>
+          <incDir>
+            <pElem>tools</pElem>
+            <pElem>.</pElem>
+            <pElem>libbench2</pElem>
+            <pElem>api</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="kernel/align.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/alloc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/assert.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/awake.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/buffered.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/cpy1d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/cpy2d-pair.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/cpy2d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/ct.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/cycle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kernel/debug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/extract-reim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/hash.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/iabs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/ifftw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kernel/kalloc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/md5-1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/minmax.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/ops.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/pickdim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/plan.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/planner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/primes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/print.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/problem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/rader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/scan.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/solver.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/solvtab.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/stride.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tensor9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/tile2d.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/timer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/transpose.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/trig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="kernel/twiddle.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/after-ccopy-from.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/after-ccopy-to.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/after-hccopy-from.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/after-hccopy-to.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/after-rcopy-from.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/after-rcopy-to.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/allocate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/aset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/bench-cost-postprocess.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/bench-exit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/bench-main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/bench-user.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libbench2/bench.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libbench2/can-do.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/caset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/dotens2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/mflops.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/mp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/my-getopt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/my-getopt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libbench2/ovtpvt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/pow2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/problem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/report.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/speed.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/tensor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/timer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/useropt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/util.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/verify-dft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/verify-lib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/verify-r2r.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/verify-rdft2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/verify.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="libbench2/verify.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libbench2/zero.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/buffered.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/buffered2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/codelet-rdft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/conf.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/ct-hc2c-direct.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/ct-hc2c.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/ct-hc2c.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/dft-r2hc.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/dht-r2hc.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/dht-rader.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/direct-r2c.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/direct-r2r.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/direct2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/generic.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/hc2hc-direct.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/hc2hc-generic.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/hc2hc.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/hc2hc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/indirect.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/khc2c.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/khc2hc.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/kr2c.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/kr2r.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/nop.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/nop2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/plan.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/plan2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/problem.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/problem2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rank-geq2-rdft2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rank-geq2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rank0-rdft2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rank0.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rdft-dht.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rdft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/rdft2-inplace-strides.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rdft2-rdft.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rdft2-strides.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/rdft2-tensor-max-index.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/scalar/hb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/hc2c.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft/scalar</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>rdft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/scalar/hc2cb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/hc2cf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/hf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/hfb.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft/scalar</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>rdft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/scalar/r2c.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft/scalar</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>rdft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/scalar/r2cb.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/codlist.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb2_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb2_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb2_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb2_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb2_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb2_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb2_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hb_9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb2_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb2_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb2_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb2_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb2_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cb_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft2_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft2_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft2_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft2_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft2_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/hc2cbdft_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cbIII_9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_128.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_13.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_14.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cb/r2cb_9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cbIII.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/codlist.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf2_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf2_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf2_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf2_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf2_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cf_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft2_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft2_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft2_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft2_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft2_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hc2cfdft_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf2_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf2_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf2_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf2_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf2_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf2_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf2_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/hf_9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cfII_9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_10.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_11.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_12.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_128.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_13.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_14.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_15.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_16.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_20.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_25.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cf/r2cf_9.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2cfII.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2r.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft/scalar</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>rdft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/scalar/r2r.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2r/codlist.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2r/e01_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/scalar/r2r/e10_8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rdft/solve.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/solve2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/vrank-geq1-rdft2.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/vrank-geq1.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="rdft/vrank3-transpose.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>rdft</pElem>
+            <pElem>.</pElem>
+            <pElem>kernel</pElem>
+            <pElem>dft</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="reodft/conf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reodft/redft00e-r2hc-pad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reodft/reodft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reodft/reodft00e-splitradix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reodft/reodft010e-r2hc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reodft/reodft11e-r2hc-odd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reodft/reodft11e-radix2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reodft/rodft00e-r2hc-pad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="simd-support/altivec.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="simd-support/avx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="simd-support/neon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="simd-support/simd-common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="simd-support/sse2-nonportable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="simd-support/sse2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="simd-support/taint.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tests/bench.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tests/fftw-bench.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tests/fftw-bench.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tests/hook.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tools/fftw-wisdom.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
